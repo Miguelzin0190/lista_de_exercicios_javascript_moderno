@@ -6,4 +6,6 @@ const aluno = {
 
 const {nome, idade, turma} = aluno;
 
-console.log()
+console.log(nome)
+console.log(idade)
+console.log(turma)

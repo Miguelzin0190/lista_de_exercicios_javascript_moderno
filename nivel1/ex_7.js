@@ -3,6 +3,6 @@ const aluno = {
     curso: "DS"
 }
 
-const apresentar = (nome, idade) => console.log(`Olá, meu nome é ${aluno.nome} e estudo ${aluno.curso}`)
+const apresentar = (nome, curso) => console.log(`Olá, meu nome é ${aluno.nome} e estudo ${aluno.curso}`)
 
-apresentar(aluno.nome, aluno.idade)
+apresentar(aluno.nome, aluno.curso)
